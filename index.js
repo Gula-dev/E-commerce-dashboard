@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require("cors");
 require('./db/config');
-require('dotenv').config();
+const dotenv = require('dotenv').config();
 const User = require("./db/User");
 const Product = require("./db/Product")
 
